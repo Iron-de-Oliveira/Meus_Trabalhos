@@ -1,0 +1,159 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-content: center;
+    background: linear-gradient(white 90%, rgba(3, 197, 197, 0.148) );
+}
+/**/
+
+div[id="caixa mae"]{
+    padding: 20px;
+    
+}
+
+main{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+}
+
+div[id="treineme"]{
+    width: 481px;
+    color:rgb(3, 197, 197);
+    text-shadow: -1px 1px 2px gray;
+    justify-content: start;
+   font-size: 18px;
+}
+
+.Colorgrey{
+    color: gray;
+}
+
+div[id="atalhos"]{
+    width: 481px;
+    gap:50px;
+    display: flex;
+    justify-content: end;
+    
+}
+div[id="atalhos"] p{
+   color: black;
+}
+
+div[id="atalhos"] p:hover{
+    cursor: pointer;
+    text-shadow: 0px 1px 5px rgb(3, 197, 197);
+}
+
+/**/
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 150px;
+}
+
+.colorblue{
+    color: rgb(3, 197, 197);
+    text-shadow: -1px 1px 3px gray ;  
+}
+
+section div[id="texto"]{
+    width: 481px;
+    height: 332px;
+    align-content: center;
+    
+} 
+
+
+section div[id="img"]{
+    width: 481px;
+    height: 332px;
+    background: url(img/image.png);
+    background-size: 481px 332px;
+}
+section div[id="whats"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 5px 5px gray;
+    text-shadow:-1px 1px 3px rgb(148, 148, 148)  ;
+    color: white;
+    background-color:rgb(3, 197, 158);
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: 0.5s;
+    
+}
+
+section div[id="whats"] img{
+    width: 30px;
+}
+
+
+
+section div[id="whats"]:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.01);
+    box-shadow: 0px 7px 7px rgb(68, 224, 255);
+    background-color:rgb(4, 177, 143);
+    text-shadow: 0px 0px 0.5px rgb(255, 255, 255);
+    color:rgb(0, 247, 255);
+    
+}
+
+section div[id="whats"]:hover img{
+   filter: drop-shadow(0px 0px 2px  rgb(68, 224, 255));
+   
+
+}
+
+.textoG{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 44px;
+    padding-bottom: 40px;
+    text-shadow: -1px 1px 3px gray;
+    
+
+}
+
+.textoP{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-shadow: -1px 1px 3px rgb(148, 148, 148) ;
+    color: rgb(121, 121, 121);
+}
+
+/**/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p{
+    color:rgb(50, 50, 50);
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    text-shadow: 0px 1px 5px rgb(3, 197, 197);
+}
